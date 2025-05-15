@@ -1,0 +1,25 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+      {
+        "label": "CMake Build",
+        "type": "shell",
+        "command": "cmake --build build",
+        "group": "build",
+        "problemMatcher": ["$gcc"],
+        "presentation": {
+          "reveal": "always"
+        }
+      },
+      {
+        "label": "Run",
+        "type": "shell",
+        "command": "./build/InstagramLikeDemo",
+        "dependsOn": ["CMake Build"],
+        "group": "test",
+        "presentation": {
+          "reveal": "always"
+        }
+      }
+    ]
+  }

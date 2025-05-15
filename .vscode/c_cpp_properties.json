@@ -1,0 +1,21 @@
+{
+    "configurations": [
+      {
+        "name": "Qt6",
+        "includePath": [
+          "${workspaceFolder}/**",
+          "/usr/include/qt6/**",
+          "/usr/include/qt6/QtCore",
+          "/usr/include/qt6/QtQuick",
+          "/usr/include/qt6/QtQml"
+        ],
+        "defines": [],
+        "compilerPath": "/usr/bin/g++",
+        "cStandard": "c17",
+        "cppStandard": "c++17",
+        "intelliSenseMode": "linux-gcc-x64",
+        "configurationProvider": "ms-vscode.cmake-tools"
+      }
+    ],
+    "version": 4
+  }
